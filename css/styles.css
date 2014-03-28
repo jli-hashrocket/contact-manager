@@ -1,0 +1,11 @@
+body{
+	font-family: helvetica;
+}
+.avatar{
+	float:left;
+	display:block;
+}
+#contacts, .contact{
+	float:left;
+	width:25%;
+}

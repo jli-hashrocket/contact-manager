@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Backbone.js Web App</title>
+		<script data-main="scripts/main" src="scripts/require.js"></script>
+		<link="stylesheet" type="text/css" href="css/styles.css" />
+	</head>
+	<body>
+		<div id="intro-container"></div>
+		<script id="introTemplate" type="text/template">
+			<h1>Welcome to Contact Manager</h1>
+			<a href="<%= contactLink %>">Click Here to begin...</a>
+		</script>
+		<div id="contacts"></div>
+		<script id="contactsTemplate" type="text/template">
+			<img src="<%= photo %>" alt="<%= name %>" class="avatar" />
+			<a href="#directory/<%= id %>"><h1><%= name %> <span><%= type %></span></h1></a>
+		</script>
+		<div class="contact"></div>
+		<script id="contactTemplate" type="text/template">
+			<h1><%= name %> <span><%= type %></span></h1>
+			<div><%= address %></div>
+			<dl>
+				<dt>Tel:</dt><dd><%= tel %></dd>
+				<dt>Email:</dt><dd><a href="mailto:<%=email %>"><%= email %></a></dd>
+			</dl>
+		</script>
+    </body>
+</html>
