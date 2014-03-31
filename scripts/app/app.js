@@ -11,7 +11,7 @@ define([
 	], function($, _, Backbone, Directory, IndexView, ContactsView, DirectoryView, ContactView, Contact){
 	var contacts = [
 		        { id: 1, name: "Jason", address: "1, a street, a town, a city, AB12 3CD", tel: "0123456789", email: "anemail@me.com", type: "family" },
-		        { id: 2, name: "Dad", address: "1, a street, a town, a city, AB12 3CD", tel: "0123456789", email: "anemail@me.com", type: "family" },
+		        { id: 2, name: "Dad", address: "555 Fairfax St, Fairfax, VA 22032", tel: "0123456789", email: "anemail@me.com", type: "family" },
 		        { id: 3, name: "Jose", address: "1, a street, a town, a city, AB12 3CD", tel: "0123456789", email: "anemail@me.com", type: "friend" },
 		        { id: 4, name: "John", address: "1, a street, a town, a city, AB12 3CD", tel: "0123456789", email: "anemail@me.com", type: "colleague" },
 		        { id: 5, name: "Grandpa", address: "1, a street, a town, a city, AB12 3CD", tel: "0123456789", email: "anemail@me.com", type: "family" },
